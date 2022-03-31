@@ -1,8 +1,19 @@
-body{
-  font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
-  font-variant: small-caps;
+/* @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato&display=swap'); */
+
+.bg{
+    background-color:rgb(22, 22, 22); 
 }
-.background{
-  background-color: #3f4740;
+
+h1{
+    color:orange;
+    font-family: 'Bree Serif', serif;
+}
+
+h4{
+    color: orange;
+    font-family: 'Bree Serif', serif;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
 }

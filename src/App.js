@@ -4,7 +4,9 @@ import './App.css';
 import MusicTable from "./Components/MusicTable/MusicTable";
 import SearchBar from "./Components/SearchBar/SearchBar";
 import TitleBar from "./Components/TitleBar/TitleBar";
-
+// import AddSong from "./Components/AddSong/AddSong";
+// import DeleteSong from "./Components/DeleteSong/DeleteSong";
+import StickyNav from './Components/StickyNav/StickyNav';
 
 
 function App() {

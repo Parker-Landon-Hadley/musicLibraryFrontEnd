@@ -84,7 +84,6 @@ class SearchBar extends Component {
                 <option value="genre">Genre</option>
                 <option value="release_year">Release Year</option>
               </select>
-              <button className="s-l-button" type="submit" value="submit" >Lock In Search Type</button>
             </form>
 
             <form onSubmit={this.searchSubmit}>

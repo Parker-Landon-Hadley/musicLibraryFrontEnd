@@ -1,4 +1,4 @@
-.s-l-button{
+.d-button{
     background-color: black;
     color: orange;
     border:solid 1px orange;
@@ -7,4 +7,9 @@
     margin-right:1em;
     margin-top: 5px;
     margin-bottom: 5px;
+    width: 4em;
+}
+
+.d-button:hover{
+    background-color: rgb(63, 63, 63);
 }

@@ -9,7 +9,7 @@ const MusicTable = (props) => {
   const [searchList,setSearchList] = useState([{}]);
 
   async function getMusic() {
-     let response = await axios.get('http://www.devcodecampmusiclibrary.com/api/music');
+     let response = await axios.get('http://localhost:5005/api/songs');
       console.log(response.data); 
       setMusicData(response.data);  
       setSearchList(response.data);

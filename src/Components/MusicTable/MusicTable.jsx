@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import './MusicTable.css'
 import SearchBar from '../SearchBar/SearchBar';
 
 const MusicTable = (props) => {

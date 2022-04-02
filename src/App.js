@@ -4,9 +4,9 @@ import './App.css';
 import MusicTable from "./Components/MusicTable/MusicTable";
 import SearchBar from "./Components/SearchBar/SearchBar";
 import TitleBar from "./Components/TitleBar/TitleBar";
-// import AddSong from "./Components/AddSong/AddSong";
 // import DeleteSong from "./Components/DeleteSong/DeleteSong";
 import StickyNav from './Components/StickyNav/StickyNav';
+
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
 
   async function getTable() {
    try{
-    let response = await axios.get('http://www.devcodecampmusiclibrary.com/api/music');
+    let response = await axios.get('http://localhost:5005/api/songs');
       
      setMusicList(response.data); 
       
@@ -41,6 +41,7 @@ function App() {
    
    return (
       <div>
+        <StickyNav />
          <TitleBar/>
          <SearchBar query={query} setQuery={setQuery} />
         <MusicTable  musicList={search(musicList)} />

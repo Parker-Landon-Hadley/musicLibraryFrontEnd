@@ -7,7 +7,7 @@ function StickyNav(props) {
             <div className="fixed"><button className="sticky-btn"><a href="#header">Top</a></button></div>
             <br />
             <br />
-            <div className="fixed"><button className="sticky-btn"><a href="#searchForm">Search</a></button></div>
+            <div className="fixed"><button className="sticky-btn"><a href="#searchBar">Search</a></button></div>
         </div>
      );
 }

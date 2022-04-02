@@ -84,6 +84,7 @@ class SearchBar extends Component {
                 <option value="genre">Genre</option>
                 <option value="release_year">Release Year</option>
               </select>
+
             </form>
 
             <form onSubmit={this.searchSubmit}>
